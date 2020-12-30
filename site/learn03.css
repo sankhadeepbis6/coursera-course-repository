@@ -1,0 +1,52 @@
+div{
+    background-color: #00ffff;
+}
+
+p{
+    width: 50px;
+    height: 50px;
+    border: 1px solid #000000;
+}
+
+#p1{
+    background-color: rgb(4, 4, 122);
+    float: right;
+}
+
+#p2{
+    background-color: rgb(235, 150, 72);
+    /*nothing can float on its right or left*/
+    clear: both;
+}
+
+#p3{
+    background-color: rgb(39, 39, 54);
+}
+
+#p4{
+    background-color: rgb(19, 116, 48);
+}
+
+section{
+    clear: both;
+}
+
+#para{
+    background-color: #677ae7;
+}
+
+#para1, #para2{
+    padding: 10px;
+    box-sizing: border-box;
+    width: 50%;
+    height: auto;
+    border: 1px solid #000000;
+    float: left;
+}
+
+
+
+
+
+
+

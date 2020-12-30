@@ -1,0 +1,107 @@
+div{
+    color: hsl(83, 95%, 15%);
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 28px;
+}
+
+/* this is class styling*/
+.class1{
+    color: #14149e;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 25px;
+}
+
+/* this is id styling*/
+#id1{
+    color: #53082d;
+    font-family: Impact, 'Arial Narrow Bold', sans-serif;
+    font-size: 22px;
+}
+
+/* selecting all p tap with big class*/
+p.big{
+    color: hsl(212, 74%, 43%);
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+    font-size: 28px;
+}
+
+article{
+    color: hsl(212, 93%, 17%);
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+    font-size: 28px;
+}
+
+/* selecting all p child of article*/
+/* it should be direct child */
+article > p{
+    color: hsl(212, 79%, 50%);
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: 800;
+    font-size: 25px;
+}
+
+/* p decadence of p */
+/* all p tag that are at any level under of article */
+article  section{
+    color: hsl(0, 89%, 35%);
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: 600;
+    font-size: 25px;
+}
+
+/* all p under class2*/
+.class2 > p{
+    color: hsl(192, 86%, 14%);
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: 700;
+    font-size: 25px;
+}
+
+/* all p under class2*/
+.class2 > p{
+    color: hsl(192, 86%, 14%);
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: 700;
+    font-size: 25px;
+}
+
+/* all class3 under article*/
+article .class3{
+    color: hsl(88, 100%, 28%);
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: 700;
+    font-style: italic;
+    font-size: 25px;
+}
+
+/* multiple class*/
+.class4.class5{
+    color: hsl(288, 100%, 48%);
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: 700;
+    font-style: italic;
+    font-size: 25px;
+}
+
+/*
+Adjacent Sibling Selector (+)
+The adjacent sibling selector is used to select an element that is directly after another specific element.
+Sibling elements must have the same parent element, and "adjacent" means "immediately following".
+The following example selects the first <p> element that are placed immediately after <div> elements:
+*/
+
+/*
+General Sibling Selector (~)
+The general sibling selector selects all elements that are siblings of a specified element.
+The following example selects all <p> elements that are siblings of <div> elements: 
+*/
+
+
+
+
+
+
+
+

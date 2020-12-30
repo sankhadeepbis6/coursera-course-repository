@@ -1,0 +1,84 @@
+header li{
+    list-style: none;  
+}
+
+a:link, a:visited{
+    text-decoration: none;
+    background-color: rgb(157, 70, 216);
+    border: 1px solid #00004e;
+    color: rgb(191, 230, 230);
+    display: block;
+    width: 200px;
+    text-align: center;
+    margin-bottom: 2px;
+}
+
+a:hover, a:active{
+    background-color: rgb(70, 88, 4);
+    color: rgb(0, 0, 46);
+}
+
+header li:nth-child(3){
+    font-size: 24px;
+}
+
+section div:nth-child(odd){
+    background-color: blueviolet;
+}
+
+section div:nth-child(even):hover{
+    background-color: rgb(226, 131, 43);
+    cursor: pointer;
+}
+
+#id1{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: rgb(138, 43, 226);
+    font-size: 18px;
+    font-weight: 800;
+    font-style: initial;
+    text-transform: lowercase;
+    text-align: left;
+}
+
+#box{
+    background-color: #0000ff;
+    padding: 10px 30px 10px 30px;
+    border: 20px solid #00004e;
+    margin: 40px;
+    width: 300px;
+    /*to make the entire box with margin, border & padding combining 300px*/
+    box-sizing: border-box;
+}
+
+#box2{
+    background-color: #0000ff;
+    color: rgb(230, 214, 193);
+    padding: 10px 30px 10px 30px;
+    border: 20px solid #00004e;
+    margin: 40px;
+    width: 300px;
+    height: 100px;
+    /*to make the entire box with margin, border & padding combining 300px*/
+    box-sizing: border-box;
+    /*controlling the scroll bar or overflow*/
+    overflow: auto;
+
+}
+
+#bg{
+    background-color: rgb(9, 9, 247);
+    color: rgb(223, 186, 139);
+    width: 300px;
+    height: 500px;
+    background-image: url("img2.png");
+    background-repeat: no-repeat;
+    background-position: top;
+    background-size: cover;
+}
+
+
+/* select all element*/
+*{
+    color: #00004e;
+}
