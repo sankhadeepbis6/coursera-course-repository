@@ -4,24 +4,24 @@
 }
 
 body {
-    background-color: #d6d6d6;
+    background-color: #d6b0b0;
 }
 
 h1 {
     text-align: center;
-    color: black;
+    color: rgb(31, 26, 26);
 }
 
 section {
     border: 1px solid black;
-    background-color: #b5c4d2;
+    background-color: #88acce;
     margin: 10px;
 }
 
 section>h2 {
     float: right;
-    border-bottom: 1px solid black;
-    border-left: 1px solid black;
+    border-bottom: 1px solid rgb(39, 26, 26);
+    border-left: 1px solid rgb(41, 14, 14);
     margin: 0;
     width: 230px;
     text-align: center;
@@ -33,16 +33,16 @@ section>h2 {
 }
 
 section.lebesgue>h2 {
-    background-color: #76b8db;
+    background-color: #4bace0;
 }
 
 section.fubini>h2 {
-    background-color: #4f7acd;
+    background-color: #2357be;
 }
 
 section.luzin>h2 {
     color: #e2e2e2;
-    background-color: #10328a;
+    background-color: #092468;
 }
 
 section>p {
