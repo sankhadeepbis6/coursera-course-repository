@@ -37,7 +37,10 @@ for(var e in array2){
     console.log(e + " is " + array2[e]);
 }
 
-
+// Immediately Invoked Function Expression
+(function (name){
+    console.log("hello " + name)
+} )("ram");
 
 
 
